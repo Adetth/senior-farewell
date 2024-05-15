@@ -310,6 +310,11 @@ body {
   height: 100%;
 }
 
+.clickMe{
+  width: 15%;
+  height: 15%;
+}
+
 .anchorClass {
   text-decoration: none;
   color: white;
