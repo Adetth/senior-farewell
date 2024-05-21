@@ -49,8 +49,8 @@ const Form = () => {
             <form onSubmit={handleSubmit}>
                 <div className="container">
                     <div className="card">
-                        <a className="singup">THE REGISTRATIONS HAVE CLOSED!</a>
-                        {/* <div className="inputBox1">
+                        <a className="singup">Registrations close at 9:30 pm today!</a>
+                        <div className="inputBox1">
                             <input type="text" value={name} onChange={(e) => setName(e.target.value)} required/>
                             <span className="user">Full name</span>
                         </div>
@@ -66,7 +66,7 @@ const Form = () => {
                         </div>
                         <div className="button">
                         <button className="enterForm" disabled={isLoading}>{isLoading ? 'Submitting...' : 'Submit'}</button>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </form>
